@@ -1,0 +1,17 @@
+
+/* practice question three code */
+.nav{
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+div a{
+    text-decoration: none;
+}
+/* practice Question foue code */
+.body_div{
+    height: 100px;
+    width: 100px;
+    display: block;
+}

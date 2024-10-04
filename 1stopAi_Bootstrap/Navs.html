@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap Nav</title>
+    <link rel="stylesheet" href="./vendor/fontawesome-free-6.5.1-web/css/all.css" />
+    <link rel="stylesheet"  href="./vendor/BootStrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+</head>
+<body>
+    <div class="container-fluid">
+    <!-- Go back to main index.html -->
+    <p><a style="text-decoration: none;" href="index.html" > GO back</a></p>
+    <br>
+
+    <p>.active to activate the tab .disable to disable the tab </p>
+    <h3 class="text-center" >Basic Navigation with nav class</h3>
+    <br>
+    <hr>
+    <br>
+    <nav class="nav justify-content-center" >
+        <a href="#" class="nav-item nav-link active  ">Home</a>
+        <a href="#" class="nav-item nav-link" >Contact Us</a>
+        <a href="#" class="nav-item nav-link disabled" >About us</a>
+    </nav>
+    <br>
+    <hr>
+    <br>
+    <h3 class="text-center">BootStrap Navigation Tab with class nav nav-tabs</h3>
+    <hr>
+    <nav class=" nav nav-tabs justify-content-center " >
+        <a href="#" class="nav-item nav-link active  ">Home</a>
+        <a href="#" class="nav-item nav-link" >Contact Us</a>
+        <a href="#" class="nav-item nav-link disabled" >About us</a>
+    </nav>
+    <br>
+    <hr>
+    <br>
+    <h3 class="text-center">BootStrap Navigation with class nav nav-pills</h3>
+    <br>
+    <hr>
+    <br>
+    <nav class=" nav nav-pills justify-content-center " >
+        <a href="#" class="nav-item nav-link active  ">Home</a>
+        <a href="#" class="nav-item nav-link" >Contact Us</a>
+        <a href="#" class="nav-item nav-link disabled" >About us</a>
+    </nav>
+    <br>
+    <hr>
+    <br>
+    <h3 class="text-center">BootStrap Navigation icons</h3>
+    <br>
+    <hr>
+    <br>
+    <nav class=" nav nav-tabs justify-content-center" >
+        <a href="#" class="nav-item nav-link active  ">
+            <i class="bi bi-person"></i>Profile
+        </a>
+        <a href="#" class="nav-item nav-link" >
+           <i class="bi bi-person-gear"></i> Account Setting
+        </a>
+        <a href="#" class="nav-item nav-link disabled" >
+           <i class="bi bi-person-rolodex"></i> Preference
+        </a>
+    </nav>
+    <br>
+    <hr>
+    <br>
+    <h3 class="text-center">BootStrap Navigation icons with .nav-pills class</h3>
+    <br>
+    <hr>
+    <br>
+    <nav class=" nav nav-pills justify-content-center" >
+        <a href="#" class="nav-item nav-link   ">
+            <i class="bi bi-person"></i>Profile
+        </a>
+        <a href="#" class="nav-item nav-link active" >
+           <i class="bi bi-person-gear"></i> Account Setting
+        </a>
+        <a href="#" class="nav-item nav-link disabled" >
+           <i class="bi bi-person-rolodex"></i> Preference
+        </a>
+    </nav>
+    <br>
+    <hr>
+    <br>
+    <h3 class="text-center">BootStrap Navigation with dropdowm</h3>
+    <br>
+    <hr>
+    <br>
+    <nav class=" nav nav-pills justify-content-center" style="margin-bottom: 80px;">
+        <a href="#" class="nav-item nav-link  active ">
+            <i class="bi bi-person"></i>Profile
+        </a>
+        <div href="#" class="nav-item dropdown " >
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> <i class="bi bi-person-gear"></i> Account Setting</a>
+            <div class="dropdown-menu" >
+                <a href="#" class="dropdown-item">
+                    <i class="bi bi-pencil" ></i>Edit </a>
+                <a href="#" class="dropdown-item">Team </a>
+            </div>
+        </div>
+        <a href="#" class="nav-item nav-link disabled" >
+           <i class="bi bi-person-rolodex"></i> Preference
+        </a>
+    </nav>
+    
+
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./vendor/BootStrap/js/bootstrap.js" ></script>
+</body>
+</html>

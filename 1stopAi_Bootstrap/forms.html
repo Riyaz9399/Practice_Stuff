@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in bootstrap</title>
+    <link rel="stylesheet" href="/vendor/BootStrap/css/bootstrap.css"/>
+</head>
+<body>
+    <!-- go to back -->
+    <p><a style="text-decoration: none;" href="index.html">Go back</a></p>
+    <div class="container">
+        <div class="card" style="width:400px;">
+        <div class="card-header">
+            <h3> please login</h3>
+        </div>
+        <div class="card-body">
+           <form>
+               <div class="mb-3">
+                   <label class="form-label" for="email">Email</label>
+                   <input type="email" class="form-control" id="email" placeholder="Enter your email">
+               </div>
+               <div class="mb-3">
+                   <label class="form-label" for="password">password</label>
+                   <input type="password" class="form-control" id="password" placeholder="Enter your password">
+               </div>
+               <div class="mb-3">
+                   <input type="checkbox" class="form-check-input" id="remember me">
+                   <label class="form-label" for="remember me">keep me logged.in  </label>
+               </div>
+               <button type="submit" class="btn btn-success"> Sign in</button>
+               
+           </form>
+        </div>
+    </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+    <div class="container">
+        <div class="card" style="margin: 25px !important ">
+           
+            <form> 
+                <div class="card-header">
+                    <h3> please sign up</h3>
+                </div>
+                <div class="card-body">
+                     <div class="mb-3">
+                         <label class="form-label" for="name">Name</label>
+                         <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+                     </div>
+                     <div class="mb-3">
+                         <label class="form-label" for="email">Email</label>
+                         <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                     </div>
+                     <div class="mb-3">
+                         <label class="form-label" for="password">password</label>
+                         <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                     </div>
+                     <div class="mb-3">
+                         <label class="form-label" for=" confirm password"> confirm password</label>
+                         <input type="password" class="form-control" id=" confirm password" placeholder="Confirm your password">
+                     </div>
+                      <div class="mb-3">
+                         <input type="radio" id="male" class="form-check-input" >
+                         <label class="form-check-label" for="male">Male</label>
+                      </div>
+                      <div class="mb-3">
+                         <input type="radio" id="female" class="form-check-input" >
+                        <label class="form-check-label" for="female">Female</label>
+                      </div>
+                      <div class="mb-3">
+                         <input type="checkbox" class="form-check-input" id="statement">
+                         <lable class="form-check-label" id="statement">I agree with the terms and conditions <a href="#">More info..</a></lable>
+                      </div>
+                </div>
+                
+                    
+                 <div class="crad-footer">
+                 <button type="submit" class="btn btn-success"> Sign in</button>
+                 </div>
+                 
+             
+            </form>
+    </div>
+
+    <script src="/vendor/BootStrap/js/bootstrap.js"></script>
+</body>
+</html>

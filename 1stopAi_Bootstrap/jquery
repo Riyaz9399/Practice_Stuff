@@ -1,0 +1,52 @@
+ 
+    <select  id="controldiv">
+        <option value="1">Show</option>
+        <option value="0"> Hide</option>
+    </select>
+
+     <button id="controldiv">Start animation</button>
+     <button id="controldivstop">stop animation</button>
+    </hr>
+
+     <div id="animateDiv" style="background-color: rebeccapurple; height:50px; width:50px"></div>
+    <div id="salavediv"> I'm the Element</div>
+
+    
+  <script src="vendor/jquery/jquery.js"></script>
+     <script type="text/javascript"> -->
+           $("#controldiv").click(function(){
+
+          $("#salavediv").slideDown();
+
+        if(console.log($("#controldiv").val()) == 1){
+        $("#salavediv").fadeIn();
+         }
+               
+        else{
+            $("#salavediv").fadeOut();     
+         }
+        })  
+             $("#controldiv").click(function(){
+              
+                    $("#salavediv").slideToggle();
+                
+                
+            })
+
+            animation....
+
+             $("#controldiv").click(function(){
+                 $("#animateDiv").animate({
+                     height:"100px;",
+                     width:"100px;"
+                 },5000)
+             })
+             $("#controldiv").click(function(){
+                 $("#animateDiv").stop(); 
+            })
+
+            $("#controldiv").click(function(){
+                $("#animateDiv").css("background-color","red").fadeOut(2000);
+            })
+
+     </script> 

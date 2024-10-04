@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Website</title>
+    <link rel="stylesheet" href="vendor/BootStrap/css/bootstrap.css" />
+    <!-- bootstrap icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+
+</head>
+<body>
+     <!-- go back to main -->
+    <p><a href="index.html" >Go back</a></p>
+        
+        <h3> Simple Modal</h3>
+        <hr>
+        
+        <button type="modal" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal1">
+            Open Message Modal
+        </button>
+        
+        <div class="modal fade" id="modal1" tabindex="-1" >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" >
+                        <h5 class="modal-title" >Message modal</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quia, voluptates nobis explicabo ipsa sapiente accusamus odio dignissimos ducimus repudiandae recusandae inventore? Veniam soluta quas rerum vel veritatis ex beatae?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">close</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        
+        <h3>Modal with a static backdrop</h3>
+        <hr>
+        <button type="modal" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal2">
+            Open Message Modal
+        </button>
+
+        <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false"  id="modal2" tabindex="-1" >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" >
+                        <h5 class="modal-title" >Message modal 2</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quia, voluptates nobis explicabo ipsa sapiente accusamus odio dignissimos ducimus repudiandae recusandae inventore? Veniam soluta quas rerum vel veritatis ex beatae?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">close</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <hr>
+        
+        <h3> Large and mediam Modal with a static backdrop</h3>
+        <hr>
+        <button type="modal" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal3">
+            Open  large Message Modal
+        </button>
+        <button type="modal" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal4">
+            Open medium Message Modal
+        </button>
+
+
+        <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false"  id="modal3" tabindex="-1" >
+            <div class="modal-dialog">
+                <div class="modal-content modal-lg">
+                    <div class="modal-header" >
+                        <h5 class="modal-title" >Message modal 3</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quia, voluptates nobis explicabo ipsa sapiente accusamus odio dignissimos ducimus repudiandae recusandae inventore? Veniam soluta quas rerum vel veritatis ex beatae?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">close</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false"  id="modal4" tabindex="-1" >
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header" >
+                        <h5 class="modal-title" >Message modal 4</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quia, voluptates nobis explicabo ipsa sapiente accusamus odio dignissimos ducimus repudiandae recusandae inventore? Veniam soluta quas rerum vel veritatis ex beatae?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">close</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <h3> Full screen  Modal with a static backdrop</h3>
+        <hr>
+        <button type="modal" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal5">
+            Open fullscreen  Message Modal
+        </button>
+        
+        <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false"  id="modal5" tabindex="-1" >
+            <div class="modal-dialog">
+                <div class="modal-content modal-fullscreen">
+                    <div class="modal-header" >
+                        <h5 class="modal-title" >Message modal 5</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quia, voluptates nobis explicabo ipsa sapiente accusamus odio dignissimos ducimus repudiandae recusandae inventore? Veniam soluta quas rerum vel veritatis ex beatae?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">close</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./vendor/BootStrap/js/bootstrap.js"></script>
+    <script src="./vendor/jquery/jquery.min.js" ></script>
+</body>
+</html>

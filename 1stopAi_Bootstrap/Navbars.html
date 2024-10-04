@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap navbaar</title>
+    <link rel="stylesheet"  href="./vendor/BootStrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+
+</head>
+<body>
+        <!-- Go back to main index.html -->
+    <p><a style="text-decoration: none;" href="index.html" >GO back</a></p>
+    <br>
+    <h3 class="text-center" > Basic navBar</h3>
+    <hr>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container" >
+            <a href="#" class="navbar-brand" >Logo</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" dat-bs-target="#navbarCollapse">
+                <span class="bi bi-list" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="#navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active" >Home</a>
+                    <a href="#" class="nav-item nav-link" >About Us</a>
+                    <a href="#" class="nav-item nav-link" >Contact Us</a>
+                </div>
+                <div class="navbar-nav ms-auto" >
+                    <a href="#" class="nav-item nav-link" >Student Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <hr>
+    <br>
+    <h3 class="text-center" > Basic navbar with Icons</h3>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning" >
+        <div class="container-fluid" >
+            <a href="#" class="navbar-brand" ><img class="rounded-circle" src="image.jpg" width="80px" /></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" dat-bs-target="#navbarCollapse">
+                <span class="bi bi-list" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="#navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active">Home <i class="bi bi-house" ></i></a>
+                    <a href="#" class="nav-item nav-link" >About Us <i class="bi bi-person-circle" ></i></a>
+                    <a href="#" class="nav-item nav-link" >Contact Us <i class="bi bi-telephone-forward" ></i></a>
+                </div>
+                <div class="navbar-nav ms-auto" >
+                    <a href="#" class="nav-item nav-link" >Student Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <hr>
+    <br>
+    <h3 class="text-center" > Basic navbar with Icons and dropdown</h3>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning" >
+        <div class="container-fluid" >
+            <a href="#" class="navbar-brand" ><img class="rounded-circle" src="image.jpg" width="80px" /></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" dat-bs-target="#navbarCollapse">
+                <span class="bi bi-list" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="#navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active">Home <i class="bi bi-house" ></i></a>
+                    <div href="#" class="nav-item dropdown" >
+                      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" >
+                        About Us <i class="bi bi-person-circle" ></i>
+                      </a>
+                      <div class="dropdown-menu" >
+                        <a href="#" class="dropdown-item">Phone No <i class="bi bi-telephone-fill"></i></a>
+                        <a href="#" class="dropdown-item">Email <i class="bi bi-envelope-at" ></i></a>
+                      </div>
+                    </div>
+
+                    <a href="#" class="nav-item nav-link" >Contact Us <i class="bi bi-telephone-forward" ></i></a>
+                </div>
+                <div class="navbar-nav ms-auto" >
+                    <a href="#" class="nav-item nav-link" >Student Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <hr>
+    <br>
+    <h3 class="text-center" > Basic navbar with Icons and dropdown and with search bar </h3>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning" >
+        <div class="container-fluid" >
+            <a href="#" class="navbar-brand" ><img class="rounded-circle" src="image.jpg" width="80px" /></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" dat-bs-target="#navbarCollapse">
+                <span class="bi bi-list" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="#navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active">Home <i class="bi bi-house" ></i></a>
+                    <div href="#" class="nav-item dropdown" >
+                      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" >
+                        About Us <i class="bi bi-person-circle" ></i>
+                      </a>
+                      <div class="dropdown-menu" >
+                        <a href="#" class="dropdown-item">Phone No <i class="bi bi-telephone-fill"></i></a>
+                        <a href="#" class="dropdown-item">Email <i class="bi bi-envelope-at" ></i></a>
+                      </div>
+                    </div>
+
+                    <a href="#" class="nav-item nav-link" >Contact Us <i class="bi bi-telephone-forward" ></i></a>
+                </div>
+                <div class="navbar-nav ms-auto" >
+                    <form class="d-flex">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search Enginne" />
+                          <button type="button" class="btn btn-dark"  ><i class="bi bi-search" ></i></button>
+                        </div>
+                    </form>
+                    <a href="#" class="nav-item nav-link" >Student Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <hr>
+    <br>
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./vendor/BootStrap/js/bootstrap.js" ></script>
+
+</body>
+</html>
